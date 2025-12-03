@@ -1,7 +1,7 @@
 --//Services//--
 
 --//Library//--
-local Iris = loadstring(game:HttpGet("https://raw.githubusercontent.com/SougarLDT/generic-roleplay-gaem-autofarm/refs/heads/main/iris.luau"))().Init(game.CoreGui)
+local Iris = pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/SougarLDT/generic-roleplay-gaem-autofarm/refs/heads/main/iris.luau")).Init,game.CoreGui))
 --//Variables//--
 
 --//Constants//--
